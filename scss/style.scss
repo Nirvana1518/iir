@@ -1,0 +1,540 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/gilroy-regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+body {
+  text-decoration: none;
+  font-family: "Gilroy";
+  background-color: #fff;
+}
+
+.container {
+  max-width: 100%;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  max-height: 134px;
+  text-decoration: none;
+  background-color: #e3d7f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .headerLogo {
+    width: 112px;
+    margin-top: 16.5px;
+    margin-bottom: 12px;
+  }
+  .headerNav {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    color: #000;
+    font-size: 15px;
+    line-height: 29px;
+    a {
+      text-decoration: none;
+      padding-right: 60px;
+      color: black;
+    }
+  }
+
+  .headerIcons {
+    display: flex;
+    margin-left: auto;
+    .iconsItem {
+      margin-right: 15px;
+    }
+  }
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  .titleMain {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #fff;
+    margin-bottom: 100px;
+    display: flex;
+  }
+  .title {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+  }
+  .textTitle {
+    max-width: 500px;
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  .textDescription {
+    max-width: 430px;
+    font-size: 20px;
+    margin-bottom: 50px;
+  }
+  .buttonsTitle {
+    display: flex;
+    max-width: 350px;
+    justify-content: space-between;
+    .signUp {
+      width: 170px;
+      border-radius: 20px;
+      background: #a790c6;
+      padding: 13px 0;
+    }
+    .exit {
+      width: 170px;
+      border-radius: 20px;
+      color: #a790c6;
+    }
+  }
+}
+.titleImage {
+  margin-left: auto;
+  display: relative;
+  max-width: 919px;
+  .poster {
+    display: block;
+    width: 700px;
+  }
+}
+
+/*/title*/
+
+/*blockOne*/
+
+.blockOne {
+  display: flex;
+  padding: 70px 120px;
+  justify-content: space-between;
+  margin-bottom: 154px;
+  .formul {
+    display: flex;
+    flex-direction: column;
+    display: relative;
+    max-width: 700px;
+  }
+  .FormulBlock {
+    background-color: #edf2ff;
+    height: 380px;
+    border-radius: 40px;
+    display: flex;
+    padding: 20px;
+    .formulImg {
+      width: 300px;
+      height: 300px;
+      margin-right: 20px;
+    }
+    .fiatFormul {
+      width: 350px;
+      display: flex;
+      align-items: center;
+      font-size: 40px;
+      line-height: 100%;
+      color: #245a9a;
+    }
+  }
+  .realToken {
+    max-width: 600px;
+    padding-top: 46px;
+    padding-bottom: 56px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 60px;
+    .tokenTitle {
+      font-size: 24px;
+      width: 350px;
+    }
+    .tokenDescription {
+      font-size: 18px;
+      width: 350px;
+    }
+
+    .trade {
+      margin-top: 40px;
+      border-radius: 20px;
+      width: 300px;
+      background: #a790c6;
+      color: #fff;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      padding: 14px;
+      .exchange {
+        margin-right: 18px;
+      }
+    }
+  }
+}
+
+.blockTwo {
+  display: flex;
+  margin-bottom: 200px;
+
+  .step {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+  }
+
+  .titleStep {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .formStep {
+    width: 200px;
+    height: 150px;
+    clip-path: polygon(70% 21%, 100% 51%, 70% 81%, 0 81%, 25% 50%, 0 21%);
+    background-color: #a790c6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sign {
+      position: relative;
+      width: 50px;
+    }
+  }
+  .move {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.blockThree {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+
+  .aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .startYourTrip {
+    display: flex;
+    margin: 100px;
+    .tripTitle {
+      max-width: 650px;
+      font-weight: bold;
+      font-size: 24px;
+    }
+
+    .tripDesription {
+      font-size: 18px;
+      max-width: 600px;
+    }
+  }
+
+  .tripImg {
+    margin-left: 200px;
+    img {
+      width: 450px;
+    }
+  }
+}
+
+/*blockFour*/
+.blockFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+
+  .titleBenefits {
+    font-size: 24px;
+    margin-bottom: 200px;
+  }
+  /*/titleBenefits*/
+
+  .benefitsDescription {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+
+    .slideColumnLeft {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+    }
+    /*/slideColumnLeft*/
+    .slideColumnRight {
+      display: flex;
+      flex-direction: column;
+      width: 600px;
+    }
+    /*/slideColumnRight*/
+    .slide {
+      width: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 50px;
+      margin-bottom: 50px;
+
+      .slideImg {
+        width: 150px;
+        margin-right: 50px;
+      }
+
+      .benefits {
+        width: 350px;
+        font-size: 18px;
+      }
+    }
+  }
+}
+
+.blockFive {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #fff;
+  border-radius: 20px;
+
+  .posterOurMission {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-left: 120px;
+    width: 450px;
+
+    .titleOurMission {
+      font-size: 64px;
+    }
+    .descriptionOurMission {
+      font-size: 24px;
+    }
+  }
+
+  .houses {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    position: relative;
+    margin-bottom: 80px;
+
+    .housesColumn1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px;
+
+      .house1 {
+        width: 80px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center;
+      }
+      .column1 {
+        margin-top: 0;
+        width: 80px;
+        height: 170px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px;
+      }
+      .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    /*/hosesColumn1*/
+
+    .housesColumn2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px;
+
+      .house2 {
+        width: 90px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center;
+      }
+      .column2 {
+        margin-top: 0;
+        width: 90px;
+        height: 250px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px;
+      }
+      .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    /*housesColumn2*/
+
+    .housesColumn3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px;
+
+      .house3 {
+        width: 120px;
+        margin-bottom: -2px;
+        display: flex;
+      }
+      .column3 {
+        margin-top: 0;
+        width: 120px;
+        height: 300px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+
+    //housesColumn3
+
+    .housesColumn4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px;
+
+      .house4 {
+        width: 170px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center;
+      }
+      .column4 {
+        margin-top: 0;
+        width: 170px;
+        height: 400px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px;
+      }
+      .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    //housesBlock4
+
+    .housesColumn5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+
+      .house5 {
+        width: 200px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center;
+      }
+      .column5 {
+        margin-top: 0;
+        width: 200px;
+        height: 500px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px;
+      }
+      .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px;
+      }
+    }
+    //housesBlock5
+
+    .arrow {
+      width: 96%;
+      position: absolute;
+      left: 0;
+      top: 100px;
+    }
+  }
+}
+
+.textOurMission {
+  color: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%;
+}
+
+.blockSix {
+  display: block;
+  margin-top: 200px;
+  margin-bottom: 200px;
+
+  .imgSheme {
+    width: 1000px;
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e3d7f1;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  a {
+    text-decoration: none;
+    margin-right: 10px;
+  }
+}

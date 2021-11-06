@@ -1,0 +1,427 @@
+@font-face {
+  font-family: Gilroy;
+  src: url("../fonts/gilroy-regular.ttf");
+  font-style: normal;
+  font-weight: normal; }
+body {
+  text-decoration: none;
+  font-family: "Gilroy";
+  background-color: #fff; }
+
+.container {
+  max-width: 100%;
+  margin: auto; }
+
+header {
+  position: relative;
+  max-height: 134px;
+  text-decoration: none;
+  background-color: #e3d7f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  header .headerLogo {
+    width: 112px;
+    margin-top: 16.5px;
+    margin-bottom: 12px; }
+  header .headerNav {
+    margin-left: 100px;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    color: #000;
+    font-size: 15px;
+    line-height: 29px; }
+    header .headerNav a {
+      text-decoration: none;
+      padding-right: 60px;
+      color: black; }
+  header .headerIcons {
+    display: flex;
+    margin-left: auto; }
+    header .headerIcons .iconsItem {
+      margin-right: 15px; }
+
+.main {
+  display: flex;
+  flex-direction: column; }
+  .main .titleMain {
+    padding-top: 120px;
+    padding-bottom: 130px;
+    padding-left: 120px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-color: #fff;
+    margin-bottom: 100px;
+    display: flex; }
+  .main .title {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column; }
+  .main .textTitle {
+    max-width: 500px;
+    font-size: 30px;
+    margin-bottom: 10px; }
+  .main .textDescription {
+    max-width: 430px;
+    font-size: 20px;
+    margin-bottom: 50px; }
+  .main .buttonsTitle {
+    display: flex;
+    max-width: 350px;
+    justify-content: space-between; }
+    .main .buttonsTitle .signUp {
+      width: 170px;
+      border-radius: 20px;
+      background: #a790c6;
+      padding: 13px 0; }
+    .main .buttonsTitle .exit {
+      width: 170px;
+      border-radius: 20px;
+      color: #a790c6; }
+
+.titleImage {
+  margin-left: auto;
+  display: relative;
+  max-width: 919px; }
+  .titleImage .poster {
+    display: block;
+    width: 700px; }
+
+/*/title*/
+/*blockOne*/
+.blockOne {
+  display: flex;
+  padding: 70px 120px;
+  justify-content: space-between;
+  margin-bottom: 154px; }
+  .blockOne .formul {
+    display: flex;
+    flex-direction: column;
+    display: relative;
+    max-width: 700px; }
+  .blockOne .FormulBlock {
+    background-color: #edf2ff;
+    height: 380px;
+    border-radius: 40px;
+    display: flex;
+    padding: 20px; }
+    .blockOne .FormulBlock .formulImg {
+      width: 300px;
+      height: 300px;
+      margin-right: 20px; }
+    .blockOne .FormulBlock .fiatFormul {
+      width: 350px;
+      display: flex;
+      align-items: center;
+      font-size: 40px;
+      line-height: 100%;
+      color: #245a9a; }
+  .blockOne .realToken {
+    max-width: 600px;
+    padding-top: 46px;
+    padding-bottom: 56px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: #fff;
+    border-radius: 60px; }
+    .blockOne .realToken .tokenTitle {
+      font-size: 24px;
+      width: 350px; }
+    .blockOne .realToken .tokenDescription {
+      font-size: 18px;
+      width: 350px; }
+    .blockOne .realToken .trade {
+      margin-top: 40px;
+      border-radius: 20px;
+      width: 300px;
+      background: #a790c6;
+      color: #fff;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      padding: 14px; }
+      .blockOne .realToken .trade .exchange {
+        margin-right: 18px; }
+
+.blockTwo {
+  display: flex;
+  margin-bottom: 200px; }
+  .blockTwo .step {
+    display: flex;
+    flex-direction: column;
+    margin: 0px; }
+  .blockTwo .titleStep {
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 20px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .blockTwo .formStep {
+    width: 200px;
+    height: 150px;
+    clip-path: polygon(70% 21%, 100% 51%, 70% 81%, 0 81%, 25% 50%, 0 21%);
+    background-color: #a790c6;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .blockTwo .formStep .sign {
+      position: relative;
+      width: 50px; }
+  .blockTwo .move {
+    font-weight: bold;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+
+.blockThree {
+  display: flex;
+  margin: auto;
+  flex-direction: column; }
+  .blockThree .aboutUs {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  .blockThree .startYourTrip {
+    display: flex;
+    margin: 100px; }
+    .blockThree .startYourTrip .tripTitle {
+      max-width: 650px;
+      font-weight: bold;
+      font-size: 24px; }
+    .blockThree .startYourTrip .tripDesription {
+      font-size: 18px;
+      max-width: 600px; }
+  .blockThree .tripImg {
+    margin-left: 200px; }
+    .blockThree .tripImg img {
+      width: 450px; }
+
+/*blockFour*/
+.blockFour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 200px;
+  /*/titleBenefits*/ }
+  .blockFour .titleBenefits {
+    font-size: 24px;
+    margin-bottom: 200px; }
+  .blockFour .benefitsDescription {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    /*/slideColumnLeft*/
+    /*/slideColumnRight*/ }
+    .blockFour .benefitsDescription .slideColumnLeft {
+      display: flex;
+      flex-direction: column;
+      width: 600px; }
+    .blockFour .benefitsDescription .slideColumnRight {
+      display: flex;
+      flex-direction: column;
+      width: 600px; }
+    .blockFour .benefitsDescription .slide {
+      width: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-right: 50px;
+      margin-bottom: 50px; }
+      .blockFour .benefitsDescription .slide .slideImg {
+        width: 150px;
+        margin-right: 50px; }
+      .blockFour .benefitsDescription .slide .benefits {
+        width: 350px;
+        font-size: 18px; }
+
+.blockFive {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #fff;
+  border-radius: 20px; }
+  .blockFive .posterOurMission {
+    position: relative;
+    left: 0;
+    top: 0;
+    padding-left: 120px;
+    width: 450px; }
+    .blockFive .posterOurMission .titleOurMission {
+      font-size: 64px; }
+    .blockFive .posterOurMission .descriptionOurMission {
+      font-size: 24px; }
+  .blockFive .houses {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    position: relative;
+    margin-bottom: 80px;
+    /*/hosesColumn1*/
+    /*housesColumn2*/ }
+    .blockFive .houses .housesColumn1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px; }
+      .blockFive .houses .housesColumn1 .house1 {
+        width: 80px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center; }
+      .blockFive .houses .housesColumn1 .column1 {
+        margin-top: 0;
+        width: 80px;
+        height: 170px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px; }
+      .blockFive .houses .housesColumn1 .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px; }
+    .blockFive .houses .housesColumn2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px; }
+      .blockFive .houses .housesColumn2 .house2 {
+        width: 90px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center; }
+      .blockFive .houses .housesColumn2 .column2 {
+        margin-top: 0;
+        width: 90px;
+        height: 250px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px; }
+      .blockFive .houses .housesColumn2 .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px; }
+    .blockFive .houses .housesColumn3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px; }
+      .blockFive .houses .housesColumn3 .house3 {
+        width: 120px;
+        margin-bottom: -2px;
+        display: flex; }
+      .blockFive .houses .housesColumn3 .column3 {
+        margin-top: 0;
+        width: 120px;
+        height: 300px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center; }
+      .blockFive .houses .housesColumn3 .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px; }
+    .blockFive .houses .housesColumn4 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0;
+      margin-right: 100px; }
+      .blockFive .houses .housesColumn4 .house4 {
+        width: 170px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center; }
+      .blockFive .houses .housesColumn4 .column4 {
+        margin-top: 0;
+        width: 170px;
+        height: 400px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px; }
+      .blockFive .houses .housesColumn4 .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px; }
+    .blockFive .houses .housesColumn5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 0; }
+      .blockFive .houses .housesColumn5 .house5 {
+        width: 200px;
+        margin-bottom: -2px;
+        display: flex;
+        justify-content: center; }
+      .blockFive .houses .housesColumn5 .column5 {
+        margin-top: 0;
+        width: 200px;
+        height: 500px;
+        background: #edf2ff;
+        box-shadow: 6px 6px 8px rgba(148, 164, 205, 0.25);
+        margin-bottom: 20px; }
+      .blockFive .houses .housesColumn5 .year {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 36px; }
+    .blockFive .houses .arrow {
+      width: 96%;
+      position: absolute;
+      left: 0;
+      top: 100px; }
+
+.textOurMission {
+  color: #404040;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 85%; }
+
+.blockSix {
+  display: block;
+  margin-top: 200px;
+  margin-bottom: 200px; }
+  .blockSix .imgSheme {
+    width: 1000px; }
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #e3d7f1;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .footer a {
+    text-decoration: none;
+    margin-right: 10px; }
+
+/*# sourceMappingURL=style.css.map */
